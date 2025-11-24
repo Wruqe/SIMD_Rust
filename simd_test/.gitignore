@@ -1,0 +1,39 @@
+# --- Rust / Cargo ---
+target/
+Cargo.lock
+**/*.rs.bk
+
+# --- Criterion Benchmark Output ---
+criterion/
+**/*.json
+**/*.plot
+**/*.svg
+**/*.png
+
+# --- VSCode / JetBrains IDE ---
+.vscode/
+.idea/
+*.iml
+
+# --- OS / System Files ---
+.DS_Store
+._*
+Thumbs.db
+
+# --- Logs / Temp ---
+*.log
+*.tmp
+*.cache
+
+# --- WASM (if generated later) ---
+*.wasm
+pkg/
+wasm-pack.log
+
+# --- Node / Nuxt (if part of the repo) ---
+node_modules/
+dist/
+.nitro/
+.nuxt/
+.env
+.env.*
